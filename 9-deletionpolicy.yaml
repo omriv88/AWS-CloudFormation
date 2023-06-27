@@ -17,4 +17,4 @@ Resources:
     Properties:
       AvailabilityZone: us-east-1a
       Size: 1
-      VolumeType: gp2
+      VolumeType: gp2 
