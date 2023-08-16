@@ -15,7 +15,7 @@ Resources:
     Type: Custom::S3CustomResource
     Properties:
       ServiceToken: !GetAtt AWSLambdaFunction.Arn
-      bucket_name: !Ref SampleS3Bucket    ## Additional parameter here
+      bucket_name: !Ref S3BucketName    ## Additional parameter here
 
   AWSLambdaFunction:
      Type: AWS::Lambda::Function
